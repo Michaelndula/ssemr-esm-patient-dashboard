@@ -1694,6 +1694,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@carbon/icon-helpers@npm:^10.45.0":
+  version: 10.45.1
+  resolution: "@carbon/icon-helpers@npm:10.45.1"
+  checksum: 37e490ae7cec63512e1e8db107f7753503dffcc8eea7f932701cf62c4d6f1b94d857f10cd96836c25c1fc4fc01cbbbd0456f50493db941847e0c6e926c8d8541
+  languageName: node
+  linkType: hard
+
 "@carbon/icons-react@npm:^11.11.0":
   version: 11.11.0
   resolution: "@carbon/icons-react@npm:11.11.0"
@@ -1731,6 +1738,19 @@ __metadata:
   version: 11.5.0
   resolution: "@carbon/motion@npm:11.5.0"
   checksum: a0c583ce0a9370beb08061463566a3b41c427190d297cdad1631384a27e241334640afdd246b9c0fca62f58d51e8a5b8c7954a234118195f403cd8c13c8a1f09
+  languageName: node
+  linkType: hard
+
+"@carbon/pictograms-react@npm:^11.56.1":
+  version: 11.56.1
+  resolution: "@carbon/pictograms-react@npm:11.56.1"
+  dependencies:
+    "@carbon/icon-helpers": ^10.45.0
+    "@carbon/telemetry": 0.1.0
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ">=16"
+  checksum: f57ef47937eb81cb9cec2199eb18242a01d01362f2b376b594332b3b53ef3381dfae36bbc0b228d5d4df40df75d5257263d409e66eed992686206daffef749de
   languageName: node
   linkType: hard
 
@@ -3763,6 +3783,7 @@ __metadata:
   resolution: "@ssemr/esm-patient-hiv-art-app@workspace:packages/esm-patient-hiv-art-app"
   dependencies:
     "@carbon/charts-react": ^1.5.2
+    "@carbon/pictograms-react": ^11.56.1
     "@types/uuid": ^9.0.4
     lodash-es: ^4.17.21
     uuid: ^8.3.2

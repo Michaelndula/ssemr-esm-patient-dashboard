@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@carbon/charts-react": "^1.5.2",
+    "@carbon/pictograms-react": "^11.56.1",
     "lodash-es": "^4.17.21",
     "uuid": "^8.3.2"
   },
